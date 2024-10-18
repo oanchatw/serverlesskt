@@ -14,7 +14,7 @@ repositories {
     mavenCentral()
 }
 application {
-    mainClass.set("org.example.serverlessktKtor.ApplicationKt")
+    mainClass.set("org.example.serverlessktktor.ApplicationKt")
 }
 
 dependencies {

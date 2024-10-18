@@ -1,4 +1,5 @@
-package org.example.org.example.serverlessktKtor
+package org.example.org.example.serverlessktktor
+
 
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
@@ -12,7 +13,8 @@ import  io.ktor.server.plugins.contentnegotiation.ContentNegotiation as ServerCo
 
 import  io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
-import org.example.serverlessktKtor.getLocation
+
+
 
 val client = HttpClient(CIO) {
 

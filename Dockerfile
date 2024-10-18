@@ -1,6 +1,6 @@
 
 
-FROM  gradle:latest as builder
+FROM  gradle:latest AS builder
 
 
 WORKDIR /app

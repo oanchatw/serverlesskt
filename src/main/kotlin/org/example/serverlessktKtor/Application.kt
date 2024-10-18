@@ -13,7 +13,7 @@ import  io.ktor.server.plugins.contentnegotiation.ContentNegotiation as ServerCo
 
 import  io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
-
+import org.example.serverlessktktor.getLocation
 
 
 val client = HttpClient(CIO) {

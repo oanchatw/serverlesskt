@@ -2,7 +2,6 @@
 
 FROM  gradle:latest AS builder
 
-
 WORKDIR /app
 COPY . .
 RUN ./gradlew installDist
